@@ -14,5 +14,18 @@
       "Contraption\\Component\\": "src/"
     }
   },
-  "require": {}
+  "autoload-dev": {
+    "psr-4": {
+      "Contraption\\Component\\Tests\\": "tests/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "limedeck/phpunit-detailed-printer": "^6.0",
+    "fzaninotto/faker": "^1.0"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
 }
